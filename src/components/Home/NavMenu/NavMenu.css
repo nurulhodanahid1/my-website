@@ -1,0 +1,25 @@
+.nav-brand{
+    font-size: 50px;
+    font-weight: 700;
+}
+.nav-brand-color{
+    color: #df0e0e;
+}
+.nav-brand-middle-color{
+    color: #ffffff;
+}
+
+.nav-item{
+    color: #ffffff !important;
+    margin-left: 25px;
+    font-weight: 500;
+}
+.nav-item:hover{
+    color: #df0e0e !important;
+}
+
+#nav-resume{
+    border: 2px solid #df0e0e;
+    border-radius: 4px;
+    padding: 5px 18px;
+}

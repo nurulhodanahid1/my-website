@@ -1,0 +1,13 @@
+.main{
+    padding: 100px 0;
+}
+
+.main p{
+    color: #df0e0e;
+}
+.main h1, .web-programmer{
+    color: #ffffff !important;
+}
+.main h4{
+    color: #df0e0e;
+}
