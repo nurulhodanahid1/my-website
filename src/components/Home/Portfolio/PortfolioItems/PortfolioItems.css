@@ -1,0 +1,20 @@
+#portfolio-items .portfolio-link-icon{
+    background-color: #1D293A;
+    padding: 0;
+    margin-left: -28px;
+}
+#portfolio-items .portfolio-link-icon li a{
+    background-color: #1D293A;
+    font-size: 22px;
+    color: #ffffff;
+}
+#portfolio-items .portfolio-link-icon li a:hover{
+    color: #C0392B;
+}
+#portfolio-items .portfolio-link-icon li{
+    background-color: #1D293A;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin : 0 20px 0 0;
+}

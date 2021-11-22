@@ -21,7 +21,7 @@ const LoveToDo = () => {
                         <Col sm={3}>
                             <Card style={{ marginBottom: '28px', border: "1px solid #1D293A" }}>
                                 <Card.Body style={{ backgroundColor: "#1D293A" }}>
-                                    <FontAwesomeIcon style={{ fontSize: '60px', color: '#ffffff', backgroundColor: '#1D293A' }} icon={todo.icon} />
+                                    <FontAwesomeIcon style={{ fontSize: '60px', color: '#C0392B', backgroundColor: '#1D293A' }} icon={todo.icon} />
                                     <Card.Title style={{ backgroundColor: "#1D293A", color: "#FFFFFF", fontWeight: '600', fontSize: '27px', marginTop: "8px" }}>{todo.name}</Card.Title>
                                 </Card.Body>
                             </Card>

@@ -3,6 +3,7 @@ import About from '../About/About';
 import LoveToDo from '../LoveToDo/LoveToDo';
 import Main from '../Main/Main';
 import NavMenu from '../NavMenu/NavMenu';
+import Portfolio from '../Portfolio/Portfolio';
 import Skills from '../Skills/Skills';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <About></About>
             <Skills></Skills>
             <LoveToDo></LoveToDo>
+            <Portfolio></Portfolio>
         </div>
     );
 };

@@ -26,21 +26,21 @@ const Skills = () => {
     }
 
     const webData = [
-        { name: "REACT", bgcolor: "#6a1b9a", completed: 80 },
-        { name: "NODE", bgcolor: "#00695c", completed: 50 },
-        { name: "MONGO DB", bgcolor: "#ef6c00", completed: 65 },
+        { name: "REACT", bgcolor: "#c0392b", completed: 80 },
+        { name: "NODE", bgcolor: "#c0392b", completed: 50 },
+        { name: "MONGO DB", bgcolor: "#c0392b", completed: 65 },
         { name: "EXPRESS JS", bgcolor: "#c0392b", completed: 70 },
-        { name: "HTML", bgcolor: "#27ae60", completed: 90 },
-        { name: "CSS", bgcolor: "#d35400", completed: 70 },
+        { name: "HTML", bgcolor: "#c0392b", completed: 90 },
+        { name: "CSS", bgcolor: "#c0392b", completed: 70 },
     ];
     const programmingData = [
-        { name: "JavaScript", bgcolor: "#6a1b9a", completed: 80 },
-        { name: "PHP", bgcolor: "#00695c", completed: 40 }
+        { name: "JavaScript", bgcolor: "#c0392b", completed: 80 },
+        { name: "PHP", bgcolor: "#c0392b", completed: 40 }
     ];
     const toolsData = [
-        { name: "GIT", bgcolor: "#6a1b9a", completed: 80 },
-        { name: "FIREBASE", bgcolor: "#00695c", completed: 70 },
-        { name: "PHOTOSHOP", bgcolor: "#ef6c00", completed: 55 }
+        { name: "GIT", bgcolor: "#c0392b", completed: 80 },
+        { name: "FIREBASE", bgcolor: "#c0392b", completed: 70 },
+        { name: "PHOTOSHOP", bgcolor: "#c0392b", completed: 55 }
     ];
 
     return (

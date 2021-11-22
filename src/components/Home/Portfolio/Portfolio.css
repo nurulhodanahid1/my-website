@@ -1,0 +1,12 @@
+#portfolio .portfolio-btn:hover{
+    color: #ffffff !important;
+}
+
+.portfolio-link a{
+    text-decoration: none;
+    border: 2px solid #DF0E0E;
+    border-radius: 3px;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
