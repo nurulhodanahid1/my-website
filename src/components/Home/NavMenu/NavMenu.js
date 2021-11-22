@@ -15,7 +15,7 @@ const NavMenu = () => {
         <Nav.Link className="nav-item" href="#portfolio">PORTFOLIO</Nav.Link>
         <Nav.Link className="nav-item" href="#contact">CONTACT</Nav.Link>
         <Nav.Link className="nav-item" href="#blog">BLOG</Nav.Link>
-        <Nav.Link className="nav-item" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank" id="nav-resume">RESUME</Nav.Link>
+        <Nav.Link className="nav-item nav-resume" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank">RESUME</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Container>

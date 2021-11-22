@@ -1,13 +1,91 @@
 .main{
-    padding: 100px 0;
+    padding: 100px 0 50px;
 }
 
-.main p{
+.main .hello{
     color: #df0e0e;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: -5px;
+}
+.main .web-programmer{
+    color: #df0e0e;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -11px;
+    margin-bottom: 19px;
 }
 .main h1, .web-programmer{
     color: #ffffff !important;
 }
-.main h4{
+.main h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+h4{
     color: #df0e0e;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 13px;
+}
+
+.main-nav .nav-item{
+    background-color: #df0e0e;
+    border: 2px solid #df0e0e;
+    margin-left: 0 !important;
+}
+.main-nav .nav-resume{
+    padding: 9px 18px !important;
+}
+.main-nav .nav-resume:hover{
+    color: #ffffff !important;
+}
+
+.main-nav .main-about{
+    margin-left: 25px !important;
+    background-color: #000000;
+    border: 2px solid #df0e0e;
+    border-radius: 4px;
+}
+
+img{
+    width: 90%;
+}
+
+.header{
+    padding: 25px 15px;
+}
+.header h4 {
+    overflow: hidden;
+    text-align: center;
+}
+.header h4:before,
+.header h4:after {
+    background-color: #ffffff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+.header h4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.header h4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.social-icon{
+    display: inline-block;
+}
+.social-icon ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+.social-icon ul li a{
+    color: #DCDDDF;
 }

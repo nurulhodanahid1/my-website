@@ -18,8 +18,8 @@
     color: #df0e0e !important;
 }
 
-#nav-resume{
+.nav-resume{
     border: 2px solid #df0e0e;
     border-radius: 4px;
-    padding: 5px 18px;
+    padding: 5px 18px !important;
 }
