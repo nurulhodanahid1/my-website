@@ -31,7 +31,7 @@ const About = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <Nav style={{ marginBottom: '28px' }} className="align-items-center main-nav">
                                 <Nav.Link className="nav-item nav-resume" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank">Get Resume</Nav.Link>
-                                <Nav.Link className="nav-item main-about" href="#skill">My Skills</Nav.Link>
+                                <Nav.Link style={{backgroundColor:"#111A28"}} className="nav-item main-about" href="#skill">My Skills</Nav.Link>
                             </Nav>
                             </div>
                         </Col>

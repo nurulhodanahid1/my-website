@@ -14,10 +14,10 @@ const Main = () => {
                         <p className="hello">Hello! I am</p>
                         <h1>Nurul Hoda Nahid</h1>
                         <h4>Front-End Developer</h4>
-                        <p className="web-programmer">Web Developer &amp; Programmer</p>
+                        <p className="web-programmer">Web Developer | Programmer</p>
                         <Nav style={{ marginBottom: '28px' }} className="align-items-center main-nav">
                             <Nav.Link className="nav-item nav-resume" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank">Get Resume</Nav.Link>
-                            <Nav.Link className="nav-item main-about" href="#about">About me</Nav.Link>
+                            <Nav.Link style={{backgroundColor:"#111A28"}} className="nav-item main-about" href="#about">About me</Nav.Link>
                         </Nav>
                     </Col>
                     <Col sm={5} className="text-center justify-content-center align-content-center align-items-center">

@@ -3,13 +3,13 @@
 }
 
 .main .hello{
-    color: #df0e0e;
+    color: #d63031;
     font-weight: 500;
     font-size: 22px;
     margin-bottom: -5px;
 }
 .main .web-programmer{
-    color: #df0e0e;
+    color: #d63031;
     font-weight: 400;
     font-size: 20px;
     margin-top: -11px;
@@ -23,15 +23,15 @@
     font-weight: 700;
 }
 h4{
-    color: #df0e0e;
+    color: #d63031;
     font-size: 25px;
     font-weight: 700;
     margin-top: 13px;
 }
 
 .main-nav .nav-item{
-    background-color: #df0e0e;
-    border: 2px solid #df0e0e;
+    background-color: #d63031;
+    border: 2px solid #d63031;
     margin-left: 0 !important;
 }
 .main-nav .nav-resume{
@@ -44,7 +44,7 @@ h4{
 .main-nav .main-about{
     margin-left: 25px !important;
     background-color: #000000;
-    border: 2px solid #df0e0e;
+    border: 2px solid #d63031;
     border-radius: 4px;
 }
 

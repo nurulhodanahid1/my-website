@@ -1,0 +1,25 @@
+.contact-link a{
+    text-decoration: none;
+    border: 2px solid #d63031;
+    background-color:#d63031;
+    border-radius: 3px;
+    padding: 12px 19px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.contact-link{
+    margin-top: 35px;
+}
+
+.contact-info h3{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.contact-info p{
+    font-size: 17px;
+}
+.contact-info p span {
+    color: #8d9196;
+}

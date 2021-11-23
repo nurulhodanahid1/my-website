@@ -1,0 +1,31 @@
+#footer{
+    background-color: #1D293A ;
+    height: 100px
+}
+#footer span{
+    color: #fff;
+    margin-right: 15px;
+    background-color: #111A28 !important;
+    padding: 7px 15px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 5px solid #d63031;
+}
+.half-width{
+    padding: 30px 0 0 0;
+    width: 50%;
+    float: left;
+}
+.half-width p small{
+    color: #c6cace;
+}
+
+@media only screen and (max-width: 768px) {
+    .half-width{
+      width: 100%;
+      float:none;
+    }
+    #footer span{
+        display : inline-block;
+        margin-bottom: 10px;
+    }
+  }

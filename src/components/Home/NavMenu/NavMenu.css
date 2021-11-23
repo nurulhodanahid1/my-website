@@ -3,10 +3,24 @@
     font-weight: 700;
 }
 .nav-brand-color{
-    color: #df0e0e;
+    color: #d63031;
 }
 .nav-brand-middle-color{
     color: #ffffff;
+}
+
+.navbar-toggle-custom{
+    background-color: #d63031;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggle-icon{
+    background-color: #d63031;
+    color: #111A28;
+    font-size: 25px;
+    margin: 3px 5px;
+
 }
 
 .nav-item{
@@ -15,11 +29,11 @@
     font-weight: 500;
 }
 .nav-item:hover{
-    color: #df0e0e !important;
+    color: #d63031 !important;
 }
 
 .nav-resume{
-    border: 2px solid #df0e0e;
+    border: 2px solid #d63031;
     border-radius: 4px;
     padding: 5px 18px !important;
 }

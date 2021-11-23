@@ -55,8 +55,8 @@ const Portfolio = () => {
                     <h2 className="text-center">Portfolio</h2>
 
                     <Nav style={{ marginBottom: '28px', marginTop: "50px" }} className="align-items-center main-nav">
-                        <Nav.Link style={{ backgroundColor: web && '#df0e0e' }} onClick={webShow} className="nav-item main-about portfolio-btn">Web</Nav.Link>
-                        <Nav.Link style={{ backgroundColor: others && '#df0e0e' }} onClick={othersShow} className="nav-item main-about portfolio-btn">Others</Nav.Link>
+                        <Nav.Link style={{ backgroundColor: web ? '#d63031' : '#111A28' }} onClick={webShow} className="nav-item main-about portfolio-btn">Web</Nav.Link>
+                        <Nav.Link style={{ backgroundColor: others ? '#d63031' : "#111A28" }} onClick={othersShow} className="nav-item main-about portfolio-btn">Others</Nav.Link>
                     </Nav>
                     <Row>
                         {web && webData.map((item, idx) => (<PortfolioItems key={idx} item={item}></PortfolioItems>))}
