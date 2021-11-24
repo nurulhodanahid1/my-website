@@ -17,8 +17,8 @@ const LoveToDo = () => {
             <div style={{ padding: '60px 0' }}>
                 <h2 className="text-center">LOVE TO DO</h2>
                 <Row style={{ marginTop: "60px" }}>
-                    {toDo.map(todo => (
-                        <Col sm={3}>
+                    {toDo.map( (todo, idx) => (
+                        <Col sm={3} key={idx}>
                             <Card style={{ marginBottom: '28px', border: "1px solid #1D293A" }}>
                                 <Card.Body style={{ backgroundColor: "#1D293A" }}>
                                     <FontAwesomeIcon style={{ fontSize: '60px', color: '#d63031', backgroundColor: '#1D293A' }} icon={todo.icon} />

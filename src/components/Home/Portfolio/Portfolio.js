@@ -60,7 +60,7 @@ const Portfolio = () => {
                     </Nav>
                     <Row>
                         {web && webData.map((item, idx) => (<PortfolioItems key={idx} item={item}></PortfolioItems>))}
-                        {others && othersData.map((item, idx) => (<PortfolioItems key={idx} item={item}></PortfolioItems>))}
+                        {/* {others && othersData.map((item, idx) => (<PortfolioItems key={idx} item={item}></PortfolioItems>))} */}
                     </Row>
                 </div>
                 <div className="text-center mb-5 portfolio-link">
