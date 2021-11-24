@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Nav, Row } from 'react-bootstrap';
 import "./About.css";
-import nahidImg from '../../../images/nurul-hoda-nahid.JPG';
+import nahidImg1 from '../../../images/nurul-hoda-nahid-1.JPG';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,7 +13,7 @@ const About = () => {
                 <div style={{padding:"60px 0 0"}}>
                     <Row>
                         <Col sm={5} className="text-center justify-content-center align-content-center align-items-center">
-                            <img style={{ borderRadius: "6px" }} src={nahidImg} alt="" />
+                            <img style={{ borderRadius: "6px" }} src={nahidImg1} alt="" />
                             <div className="follow text-center header">
                                 <h4>Follow me</h4>
                                 <div className="social-icon">
@@ -28,7 +28,7 @@ const About = () => {
                         </Col>
                         <Col sm={7}>
                             <div style={{padding:"0 0 0 40px"}} className="align-items-center">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Hello! I'm Nurul Hoda Nahid, a passionate Front-End Developer. I develop web applications. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I love to make the web more open to the world. I am available for any kind of job opportunity that suits my interests.</p>
                             <Nav style={{ marginBottom: '28px' }} className="align-items-center main-nav">
                                 <Nav.Link className="nav-item nav-resume" href="https://drive.google.com/file/d/1kKgYFLx7ZM6O7OKwxZQWENYwwsxY_3Z5/view?usp=sharing" target="_blank">Get Resume</Nav.Link>
                                 <Nav.Link style={{backgroundColor:"#111A28"}} className="nav-item main-about" href="#skill">My Skills</Nav.Link>
